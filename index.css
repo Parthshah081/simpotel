@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.myClass{
+    height: 200vh;
+    width: 200vw;
+    background-color:  #ffe9b8;
+}
+
+header {
+    background-color: #ff7170;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.myBanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-section {
+    flex: 1;
+    position: absolute;
+    right: 0px;
+}
+
+.banner {
+    padding: 50px;
+    position: absolute;
+    left: 30px;
+    flex: 1;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.button{
+    background-color: #ff7170;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px; 
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-collage .image1{
+    width: 300px;
+    height: 200px;
+}
+
+.image-collage .image2{
+    width: 300px;
+    height: 410px;
+    position: absolute;
+    left: 420px;
+}
+
+.image-collage .image3{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+}
+
+  
+.content {
+    padding: 20px;
+    background-color: #ff7170;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.content h2 {
+    font-size: 2em;
+    letter-spacing: 3PX;
+    margin-bottom: 10px;
+    width: 260PX;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.content a {
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.images{
+  position: absolute;
+  top: 650px;   
+}
